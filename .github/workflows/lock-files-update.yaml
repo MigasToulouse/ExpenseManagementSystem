@@ -31,7 +31,7 @@ jobs:
           uv lock --upgrade
 
       - name: Create a pull request
-        uses: peter-evans/create-pull-request@2e50522bdf313efe32e5628afead9048374012ed # v7.0.8
+        uses: peter-evans/create-pull-request@b99c9ae23bcf83f0f5aa571c2f0093de8aa85036 # v7.0.8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: feat/uv-lock-update
