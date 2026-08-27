@@ -177,3 +177,4 @@ mlruns/
 /notebooks/*
 !/notebooks/*.ipynb
 !/notebooks/.gitkeep
+docs/architecture/workspace.dsl
